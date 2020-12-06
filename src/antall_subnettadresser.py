@@ -4,8 +4,6 @@ Hvor mange gyldige IP-adresser kan tildeles verter i subnettet?
 """
 
 def num_adresses_subnet(network_mask_binary_string):
-    # Antar at subnet starter fra første 0. Orker ikke å kode for cases som ikke kommer på eksamen.
-
     subnet = ''
 
     network_mask_binary_string = network_mask_binary_string.split('.')
